@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from aiogram.types import Message
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token='7202256517:AAG2Qljyt3nWP_7Av11IOSxqKCLVcdQ7jEk')
+bot = Bot(token='YOUR_TOKEN_GOES_HERE')
 dp = Dispatcher()
 
 @dp.message(Command("start"))
